@@ -3,11 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="YearsApplication.MainPage">
 
-    <StackLayout>
-        <Button Background="#581845" Text="Click To print Years" Clicked="Button_Clicked" HeightRequest="150" WidthRequest="100" TextColor="AntiqueWhite"></Button>
+    <StackLayout Background="#EFECEC">
+        <Button Background="#581845" 
+                Text="Click To print Years" 
+                Clicked="Button_Clicked" 
+                HeightRequest="70" 
+                WidthRequest="100" 
+                TextColor="AntiqueWhite"
+                CornerRadius="20"
+                Margin="5"/>
 
-        <Label x:Name="MyLabel" BackgroundColor="AntiqueWhite" TextColor="Black" HeightRequest="300"></Label>
-    
+        <Label x:Name="MyLabel" 
+               BackgroundColor="AntiqueWhite"
+               TextColor="Black"
+               HeightRequest="300"
+               Margin="15"/>
+
     </StackLayout>
 
 </ContentPage>
